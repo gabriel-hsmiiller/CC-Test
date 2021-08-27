@@ -1,0 +1,80 @@
+@import '../../styles/_var.css';
+
+textarea{
+    resize: none;
+    height: 4rem;
+    width: 100% !important;
+}
+
+input:not([type='radio']):not([type='checkbox']), select{
+    width: 100% !important;
+}
+
+textarea,input,select{
+    padding: 8px 12px;
+    border-radius: .5rem;
+    border: solid 1px #aaa;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form .main-form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.form .main-form label {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 6px 0;
+    text-align: start;
+}
+
+.form .additional-form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 425px) {
+    .form .additional-form{
+        flex-direction: column;
+    }
+}
+
+.form .additional-form .hobbies, .form .additional-form .preferences, .form .additional-form .contact{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+}
+
+/* .form .additional-form .hobbies{
+}
+
+.form .additional-form .preferences{
+}
+
+.form .additional-form .contact{
+} */
+
+.form .actions {
+    margin: 20px;
+}
+
+.form button{
+    padding: .5rem;
+    border: none;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: .5rem;
+}

@@ -1,0 +1,14 @@
+@import '../../styles/_var.css';
+
+.info {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.info article{
+    text-align: justify;
+}
+
+.info img{
+    width: 100%;
+}

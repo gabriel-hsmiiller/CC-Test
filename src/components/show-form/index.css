@@ -1,0 +1,8 @@
+@import '../../styles/_var.css';
+
+.show-form{
+    width: 80%;
+    text-align: start;
+    margin: 20px auto;
+    color: rgba(0,0,0,.6);
+}
