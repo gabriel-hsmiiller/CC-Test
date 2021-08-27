@@ -6,17 +6,15 @@ export default class InfoComponent extends Component {
     render(){
         return (
             <section className="info">
-                <img src="https://http.cat/200" alt="Eu" />
-                <h2>Um titulo</h2>
-                <h3>Um subtitulo</h3>
+                <img src="https://avatars.githubusercontent.com/u/46598049?v=4" alt="Eu" />
+                <h2>Gabriel Henrique Da Silva Miiller</h2>
+                <h3>Minha história profissional</h3>
                 <article> 
-                    Deserunt commodo tempor do ullamco aute 
-                    eiusmod ea. Ad ad ullamco aliqua culpa pariatur 
-                    in sint labore qui. Cillum tempor fugiat in 
-                    deserunt amet consectetur. Aliquip id nostrud 
-                    eiusmod aute consectetur pariatur aute et esse. 
-                    Nulla veniam laborum dolor labore dolore in velit 
-                    magna ut laborum tempor id. 
+                    Universitário e desenvolvedor front-end desde 2019. 
+                    Apaixonado por tecnologia e design, sou estudante 
+                    de Análise e Desenvolvimento de Sistemas pela Fatec 
+                    Campinas e pretendo também cursar Design na USP 
+                    futuramente.
                 </article>
             </section>
         )
