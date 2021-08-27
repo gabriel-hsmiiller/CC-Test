@@ -1,3 +1,5 @@
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import './index.css';
 
@@ -118,7 +120,7 @@ export default class FormComponent extends Component {
                         </div>
                     </div>
                     <div className="actions">
-                        <button type="submit">Enviar <span class="material-icons-outlined">chevron_right</span></button>
+                        <button type="submit">Enviar <FontAwesomeIcon icon={faChevronRight} /></button>
                     </div>
                 </form>
             </section>
