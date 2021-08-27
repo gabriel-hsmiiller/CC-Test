@@ -67,7 +67,7 @@ export default class FormComponent extends Component {
                             <input value={nome} onChange={($event) => this.setFormState('nome', $event.target.value)} />
                         </label>
                         <label>
-                            <span>E-mail</span>
+                            <span>Email</span>
                             <input value={email} onChange={($event) => this.setFormState('email', $event.target.value)} />
                         </label>
                         <label>
@@ -114,8 +114,8 @@ export default class FormComponent extends Component {
                             <h3>Prefere contato por?</h3>
                             <select value={contact} onChange={($event) => this.setOptionalFormState('contact', $event.target.value)}>
                                 <option>Escolha</option>
-                                <option>Email</option>
-                                <option>WhatsApp</option>
+                                <option value="Email">Email</option>
+                                <option value="WhatsApp">WhatsApp</option>
                             </select>
                         </div>
                     </div>
